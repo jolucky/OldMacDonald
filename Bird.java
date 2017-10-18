@@ -1,12 +1,12 @@
-class Cow implements Animal {     
+class Bird implements Animal {     
      private String myType;     
      private String mySound;      
-     public Cow(String type, String sound)     
+     public Bird(String type, String sound)     
      {         
          myType = type;         
          mySound = sound;     
      }     
-     public Cow()     {         
+     public Bird()     {         
          myType = "unknown";         
          mySound = "unknown";     
      }      
