@@ -6,5 +6,6 @@ public void setup()
   //System.out.println(b.getType() + " goes " + b.getSound());
 	//Cow c = new Cow("Cow", "moo");   
   //System.out.println(c.getType() + " goes " + c.getSound());
-  
+  Farm f = new Farm();
+  f.animalSounds();
 }

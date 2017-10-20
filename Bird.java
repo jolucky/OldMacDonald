@@ -1,10 +1,13 @@
 class Bird implements Animal {     
      private String myType;     
      private String mySound;      
-     public Bird(String type, String sound)     
+     public Bird(String type, String sound1, String sound2)     
      {         
-         myType = type;         
-         mySound = sound;     
+         myType = type;
+         if ((int)(Math.random()*2)==1)
+           mySound = sound1;
+         else
+           mySound = sound2;
      }     
      public Bird()     {         
          myType = "unknown";         
